@@ -19,6 +19,7 @@
 		186612F31650F44E0071DA36 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186612F21650F44E0071DA36 /* ViewController.m */; };
 		186612F61650F44E0071DA36 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186612F41650F44E0071DA36 /* ViewController.xib */; };
 		186612FE1650F79C0071DA36 /* GCAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 186612FD1650F79C0071DA36 /* GCAlertView.m */; };
+		1866130D1650FA5B0071DA36 /* MyTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 1866130C1650FA5B0071DA36 /* MyTask.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		186612F51650F44E0071DA36 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		186612FC1650F79C0071DA36 /* GCAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCAlertView.h; sourceTree = "<group>"; };
 		186612FD1650F79C0071DA36 /* GCAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCAlertView.m; sourceTree = "<group>"; };
+		1866130B1650FA5B0071DA36 /* MyTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTask.h; sourceTree = "<group>"; };
+		1866130C1650FA5B0071DA36 /* MyTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTask.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				186612F41650F44E0071DA36 /* ViewController.xib */,
 				186612FC1650F79C0071DA36 /* GCAlertView.h */,
 				186612FD1650F79C0071DA36 /* GCAlertView.m */,
+				1866130B1650FA5B0071DA36 /* MyTask.h */,
+				1866130C1650FA5B0071DA36 /* MyTask.m */,
 				186612E01650F44E0071DA36 /* Supporting Files */,
 			);
 			path = IOS_Demo;
@@ -182,6 +187,7 @@
 				186612EA1650F44E0071DA36 /* AppDelegate.m in Sources */,
 				186612F31650F44E0071DA36 /* ViewController.m in Sources */,
 				186612FE1650F79C0071DA36 /* GCAlertView.m in Sources */,
+				1866130D1650FA5B0071DA36 /* MyTask.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +301,7 @@
 				186612FB1650F44E0071DA36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

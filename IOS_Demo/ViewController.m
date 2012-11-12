@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "GCAlertView.h"
+#import "MyTask.h"
 
 @interface ViewController ()
 
@@ -18,7 +19,26 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    queue = [[NSOperationQueue alloc] init];
+    
+    NSInteger index = 1;
+    MyTask *task = [[[MyTask alloc] init] autorelease];
+    task.operationId = index++;
+    
+    [queue addOperation:task];
+    
+    
+    task = [[[MyTask alloc] init] autorelease];
+    task.operationId = index++;
+    
+    if ([queue operationCount] > 0) {
+        MyTask *theBeforTask = [[queue operations] lastObject];
+        [task addDependency:theBeforTask];
+    }
+    
+    [queue addOperation:task];
+    
     NSLog(@"aaaaa");
     
     
@@ -35,10 +55,10 @@
 
 }
 
-- (void)didReceiveMemoryWarning
+- (void)dealloc
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [queue release];
+    [super dealloc];
 }
 
 @end
