@@ -18,6 +18,7 @@
 		186612F01650F44E0071DA36 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186612EF1650F44E0071DA36 /* Default-568h@2x.png */; };
 		186612F31650F44E0071DA36 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186612F21650F44E0071DA36 /* ViewController.m */; };
 		186612F61650F44E0071DA36 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186612F41650F44E0071DA36 /* ViewController.xib */; };
+		186612FE1650F79C0071DA36 /* GCAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 186612FD1650F79C0071DA36 /* GCAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		186612F11650F44E0071DA36 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		186612F21650F44E0071DA36 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		186612F51650F44E0071DA36 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		186612FC1650F79C0071DA36 /* GCAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCAlertView.h; sourceTree = "<group>"; };
+		186612FD1650F79C0071DA36 /* GCAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				186612F11650F44E0071DA36 /* ViewController.h */,
 				186612F21650F44E0071DA36 /* ViewController.m */,
 				186612F41650F44E0071DA36 /* ViewController.xib */,
+				186612FC1650F79C0071DA36 /* GCAlertView.h */,
+				186612FD1650F79C0071DA36 /* GCAlertView.m */,
 				186612E01650F44E0071DA36 /* Supporting Files */,
 			);
 			path = IOS_Demo;
@@ -176,6 +181,7 @@
 				186612E61650F44E0071DA36 /* main.m in Sources */,
 				186612EA1650F44E0071DA36 /* AppDelegate.m in Sources */,
 				186612F31650F44E0071DA36 /* ViewController.m in Sources */,
+				186612FE1650F79C0071DA36 /* GCAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

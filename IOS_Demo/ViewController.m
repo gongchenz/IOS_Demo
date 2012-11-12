@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "GCAlertView.h"
 
 @interface ViewController ()
 
@@ -19,6 +20,19 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     NSLog(@"aaaaa");
+    
+    
+    [GCAlertView showWithTitle:@"test"
+                       message:@"ooo"
+             cancelButtonTitle:@"yes"
+                   cancelBlock:^(void) {
+                       NSLog(@"aaaaa");
+                   }
+             otherButtonTitles:@"no"
+                    otherBlock:^{
+                        NSLog(@"bbbb");
+                    }];
+
 }
 
 - (void)didReceiveMemoryWarning
